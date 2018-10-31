@@ -19,7 +19,10 @@ function summonCaptainPlanet(planeteerCalls){
   return newArray;
 }
 
+var words = ["earth", "wind", "heart", "fire"];
+
 function longPlaneteerCalls(words) {
+  
 }
 
 function findTheCheese (foods) {
