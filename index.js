@@ -3,7 +3,7 @@ var dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"];
 function dwarfRollCall(dwarves) {
   var newArray = []; 
   for (let i=0; i<dwarves.length;i++){
-    newArray.push(`${i+1}. ${dwarves[i]}` );
+    newArray.push(`${i+1}. ${dwarves[i]} ` );
    }
    return newArray.join("");
   }
